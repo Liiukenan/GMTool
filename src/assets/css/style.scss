@@ -1,0 +1,54 @@
+
+/* .listNum{display: none;} */
+
+/* 用户信息 */
+
+.account{float: left;margin-left: 15px;}
+.table-box{height: 700px;overflow-y: auto;padding:0 15px;}
+.table-bg{background: #fff;-webkit-box-shadow: inset 0 0 10px #bbb;box-shadow: inset 0 0 10px #CCC;}
+.table-box .table tr td,.levelAlter .table tr td,.levelAlter .table tr th,.dailyMiss .table tr th{vertical-align: middle;text-align: center;}
+.table-box .table tr td input{height: 25px;text-align: center;}
+
+/* 弹框 */
+.popUp,.emailAlert{width: 100%;height: 100%;position: fixed;left: 0;top: 0;background: rgba(0,0,0,0.4);z-index: 99;}
+.popBox{position: fixed;z-index: 999;left: 50%;top: 50%;transform: translate(-50%,-50%);padding:30px 110px;background: #fff;box-shadow: 2px 2px 7px rgba(0,0,0,0.2);}
+.popString{font-size: 18px;margin-bottom: 20px;font-weight: bold;}
+.popString p i{font-size: 46px;color: #d9534f;}
+.popString p{margin-bottom: 25px;}
+.tabString,.alertTab td{cursor:pointer;}
+.addBtn{display:inline-block;float: right;margin:8px 15px;}
+.notTab tr:hover,.alertTab tr:hover,.elect tr:hover{background: #f6f6f6;}
+.graybg{background: #f6f6f6;}
+.elect td{cursor: pointer;}
+.levelAlter{padding:0 15px;margin-top: 40px;}
+.levelTd td{cursor: pointer;}
+.web{margin-top: 67px;margin-left: 220px;}
+.webService{margin-left: 220px;margin-top: 20px;}
+/* .showContent{float: left;display: none; } */
+.boxmiss th{text-align: center;}
+.missTab{height: 200px;overflow-y: auto;}
+.missInput{width: 50%;float: left;}
+.user-info .btn-group{margin:0;margin-right: 10px;}
+.user-info .appr button{cursor: default;}
+.appraise{float: left;width: 50%;padding:0 15px 10px 30px;}
+
+/* 邮件发送 */
+.emailBox{padding-right: 15px;}
+.addEmail{margin-left: 15px;}
+.emailBox table th{text-align: center;}
+.addEmailBox{background: #fff;width: 600px;position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);box-shadow: 2px 2px 7px rgba(0,0,0,0.2);}
+.platform{float: left;padding-top: 8px;}
+.plant{float: left;}
+.emailContent{padding:0px 15px 15px 15px;overflow: hidden;}
+.language{margin-top: 15px;border:1px solid #ddd;padding:15px;overflow: hidden;margin-bottom: 15px;}
+.language-title{display: block;}
+.language-input{width:auto;margin-right:15px;margin-left: 15px;}
+.emailPlam{overflow: hidden;margin-bottom: 15px;}
+.emailPlam label{padding:0;}
+.sendEmail,.emailAlert{display: none;}
+.clearGift{padding:0 15px 10px 30px;}
+/* 礼包 */
+.gift-box{padding:0 15px;margin-bottom: 15px;overflow: hidden;}
+.dailyMiss table{margin-bottom: 0;}
+.dailyMiss{margin-bottom: 15px;}
+.dailytask .userGift td{vertical-align: middle;}
